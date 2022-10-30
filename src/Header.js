@@ -12,7 +12,7 @@ function Header() {
       {/* ============================================================ */}
       <div className="header__logo">
         < StorefrontIcon className="header__logoImage" fontSize ="large"/>
-        <h2 className="header__logoTitle">eShop</h2>
+        <h2 className="header__logoTitle">marvikas</h2>
       </div>
 
      <div className="header__search">
