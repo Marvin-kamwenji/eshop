@@ -11,14 +11,14 @@ function Product({id, title, price, rating, image}) {
                   <small>KSHS </small>
                   <strong>{price}</strong>
                   </div>
-                {/* <div className="product__rating">
+                <div className="product__rating">
                   {
                   Array(rating)
                   .fill()
-                  .map(()=>(
+                  .map((_, i)=>(
                     <p>⭐</p>
                   ))
-                  }</div> */}
+                  }</div>
             </div>
             <img src={image} alt ="nikesneaker"/>
 
